@@ -12,7 +12,7 @@ type Word struct {
 
 // LoadWordList loads all words from a given word list
 //
-//The word list must be able to be unmarshalled into a slice of Word
+// The word list must be able to be unmarshalled into a slice of Word
 func LoadWordList(rawWordList []byte) (map[string]string, error) {
 	words := []Word{}
 	if err := json.Unmarshal(rawWordList, &words); err != nil {
