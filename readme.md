@@ -18,3 +18,9 @@ This game was built to demonstrate the use of the Ebiten game library, and there
 - Ability to select difficulty in the Title screen such Easy, Normal, Hard
 - Currently there's only one increase in difficulty after 35 words completed. This could be made more intelligently, and more finely tuned
 - Add audio for word completions, and mis-types. Maybe even some game music.
+
+# Resources
+
+- https://www.kenney.nl/assets/background-elements-redux
+- https://fonts.google.com/specimen/Press+Start+2P
+- https://www.wordgamedictionary.com/word-lists/
